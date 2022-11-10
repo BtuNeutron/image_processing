@@ -27,7 +27,7 @@ def captureVideo():
       if isTrue:    
           opencv.imshow('Video', frame)
           if opencv.waitKey(20) & 0xFF==ord('d'):
-              break            
+              break          
       else:
           break
 
