@@ -25,10 +25,3 @@ def drawLine():
   lineImage =  opencv.line(blank,(100,0), (blank.shape[1]//2, blank.shape[0]//2),(40,50,255), thickness=3)
   opencv.imshow('Line Image', lineImage)
   opencv.waitKey(0)
-  
-  
-    
-
-
-
-
