@@ -15,7 +15,7 @@ def create_train():
         path = os.path.join(DIR, person)
         label = people.index(person)
 
-        for img in os.listdir(path):
+        for img in os.X(path):
             img_path = os.path.join(path,img)
 
             img_array = cv.imread(img_path)
